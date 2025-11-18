@@ -2,9 +2,9 @@
 
 ## 🎯 VISION STRATÉGIQUE
 
-**Positionnement** : "Le Figma du Code" - La plateforme no-code/low-code la plus avancée avec IA
+**Positionnement** : "L'IA qui code pour vous" - La plateforme de génération de code par IA la plus avancée
 
-**Mission** : Démocratiser le développement logiciel en combinant IA + workflows visuels
+**Mission** : Démocratiser le développement logiciel en générant du code production-ready avec l'IA + workflows automatisés
 
 **Marché cible** :
 - 🎯 Entrepreneurs solopreneurs (MVP rapides)
@@ -12,6 +12,45 @@
 - 🎯 Startups tech (prototypage rapide)
 - 🎯 Développeurs (accélération dev)
 - 🎯 Entreprises (transformation digitale)
+
+---
+
+## 🎯 POSITIONNEMENT CONCURRENTIEL
+
+**CODING 2.0 vs Concurrents AI Code Generation** :
+
+### Différences Clés
+
+| Feature | **CODING 2.0** | Bolt.new | Lovable | v0.dev | Cursor |
+|---------|----------------|----------|---------|--------|--------|
+| **Agents IA spécialisés** | ✅ **11 agents** | ❌ 1 seul | ❌ 1 seul | ❌ 1 seul | ❌ 1 seul |
+| **Génération projet complet** | ✅ **Full-stack** | ✅ Frontend | ✅ Full-stack | ❌ Composants | ❌ Code snippets |
+| **Builder de workflows** | ✅ **N8N/Make** | ❌ | ❌ | ❌ | ❌ |
+| **Tests automatisés + Screenshots** | ✅ **Playwright** | ❌ | ❌ | ❌ | ❌ |
+| **Intégrations forcées** | ✅ **GitHub/Supabase/Stripe** | ❌ | Partiel | ❌ | ❌ |
+| **Mobile + Game support** | ✅ **React Native/Unity** | ❌ | ❌ | ❌ | ❌ |
+| **SEO + Security audit** | ✅ **Agents dédiés** | ❌ | ❌ | ❌ | ❌ |
+| **DevOps automation** | ✅ **CI/CD auto** | ❌ | ❌ | ❌ | ❌ |
+| **Questionnaire détaillé** | ✅ **10+ questions** | Basique | Basique | ❌ | ❌ |
+
+### Notre USP (Unique Selling Proposition)
+
+**CODING 2.0 = La seule plateforme qui génère un projet COMPLET et DÉPLOYABLE** :
+
+1. **🤖 11 Agents IA Spécialisés** : Chaque agent est expert dans son domaine (Frontend, Backend, Database, Mobile, Game, Workflow, SEO, Security, Testing, DevOps)
+
+2. **🔄 Workflow Automation** : Génération automatique de workflows N8N/Make pour automatiser l'authentification, paiements, notifications, etc.
+
+3. **🧪 Testing Intégré** : Tests E2E automatiques avec screenshots pour débugger visuellement
+
+4. **📱 Multi-Platform** : Web + Mobile + Game dans une seule plateforme
+
+5. **🔒 Production-Ready** : Sécurité enterprise (rate limiting, CSRF, CSP), intégrations réelles obligatoires
+
+6. **🎯 Contexte Complet** : Questionnaire détaillé pour comprendre vraiment votre projet avant de générer
+
+**Concurrents = Génération de code assistée**
+**CODING 2.0 = Génération de projet complet orchestrée par 11 agents**
 
 ---
 
@@ -382,19 +421,24 @@ Estimation : 5-10K€/mois
 
 **Blog** (2 articles/semaine) :
 ```
-1. "Comment j'ai construit une app en 10 minutes avec Coding 2.0"
-2. "11 agents IA vs 1 développeur : qui gagne ?"
-3. "Builder de workflows : le futur du no-code"
-4. "De l'idée au déploiement en 1 heure"
-5. "Workflows N8N : automatiser votre business"
+1. "Comment j'ai construit une app full-stack en 10 minutes avec l'IA"
+2. "11 agents IA vs 1 développeur : qui génère le meilleur code ?"
+3. "L'IA a généré mon projet complet : voici le résultat"
+4. "De l'idée au déploiement en 1 heure avec 11 agents IA"
+5. "Pourquoi CODING 2.0 > Bolt.new + Cursor + v0 combinés"
+6. "Génération de code IA : le code est-il vraiment production-ready ?"
+7. "Tests automatisés par IA : fini les bugs en production"
 ```
 
 **SEO Keywords** :
-- "no-code platform"
 - "AI code generator"
-- "workflow builder"
-- "n8n alternative"
-- "low-code development"
+- "AI coding assistant"
+- "automated code generation"
+- "AI development platform"
+- "bolt.new alternative"
+- "lovable alternative"
+- "v0 alternative"
+- "cursor alternative"
 
 **Budget** : 0€ (DIY) ou 500€/mois (rédacteur)
 **Impact** : 1000-2000 visiteurs/mois après 6 mois
@@ -412,10 +456,11 @@ Estimation : 5-10K€/mois
 ```
 
 **Exemples de vidéos** :
-1. "Je crée une app e-commerce en 15 minutes"
+1. "Je crée une app e-commerce en 15 minutes avec l'IA"
 2. "Builder de workflows : tutoriel complet"
-3. "Coding 2.0 vs Bubble.io : lequel choisir ?"
-4. "Automatiser son business avec les workflows"
+3. "Coding 2.0 vs Bolt.new vs Lovable : lequel choisir ?"
+4. "L'IA qui génère du VRAI code production-ready"
+5. "De l'idée au déploiement : 11 agents IA au travail"
 
 **Budget** : 0-200€/mois (équipement)
 **Impact** : 10K-50K vues/mois après 1 an
@@ -442,10 +487,12 @@ Estimation : 5-10K€/mois
 
 **Reddit** (organique) :
 ```
-- r/nocode
+- r/artificial
+- r/MachineLearning
+- r/programming
+- r/webdev
 - r/SaaS
 - r/Entrepreneur
-- r/webdev
 - r/startups
 ```
 
@@ -461,12 +508,15 @@ Estimation : 5-10K€/mois
 **Google Ads** (50%) :
 ```
 Keywords :
-- "no-code platform"
 - "ai code generator"
-- "workflow automation"
-- "rapid prototyping"
+- "ai coding assistant"
+- "automated code generation"
+- "ai development platform"
+- "bolt.new alternative"
+- "cursor alternative"
+- "rapid prototyping AI"
 
-CPC moyen : 2-5€
+CPC moyen : 3-8€
 Conversions attendues : 50-100/mois
 ```
 
@@ -666,11 +716,13 @@ Conversions : 20-40/mois
 
 ### Risques Business
 
-**Risque** : Concurrence (Bubble, Webflow)
+**Risque** : Concurrence (Bolt.new, Lovable, v0.dev, Cursor, GitHub Copilot)
 **Mitigation** :
-- Focus sur IA + workflows (USP)
-- Community-driven
-- Iteration rapide
+- Focus sur 11 agents spécialisés + workflows N8N/Make (USP unique)
+- Génération de projets complets (pas juste des composants)
+- Builder de workflows visuels intégré
+- Community-driven et open iteration
+- Intégrations obligatoires (GitHub, Supabase) pour vrais projets production
 
 **Risque** : Réglementation IA (EU AI Act)
 **Mitigation** :
@@ -716,11 +768,11 @@ Conversions : 20-40/mois
 
 **CODING 2.0 a TOUS les atouts pour réussir** :
 
-✅ **Innovation** : 11 agents IA + workflows visuels (unique sur le marché)
-✅ **Marché** : No-code = 45Mds$ en 2025 (croissance 23%/an)
-✅ **Timing** : IA générative en plein boom
-✅ **Technique** : Stack moderne et scalable
-✅ **Business Model** : Freemium éprouvé
+✅ **Innovation** : 11 agents IA spécialisés + workflows visuels + génération de code production-ready (unique sur le marché)
+✅ **Marché** : AI Code Generation = 12Mds$ en 2025, croissance explosive 45%/an (GitHub Copilot, Cursor, Bolt en forte adoption)
+✅ **Timing** : IA générative en plein boom, les développeurs adoptent massivement ces outils
+✅ **Technique** : Stack moderne et scalable (Next.js, TypeScript, React)
+✅ **Business Model** : Freemium éprouvé (comme GitHub Copilot, Cursor)
 
 **Prochaines actions immédiates** :
 
