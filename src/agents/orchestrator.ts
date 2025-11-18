@@ -12,19 +12,21 @@ import {
   SecurityAgent,
   DevOpsAgent,
 } from './index';
+import { WorkflowAgent } from './workflow-agent';
 
 export class AgentOrchestrator {
   private agents: Map<AgentType, BaseAgent> = new Map();
   private executionOrder: AgentType[] = [];
 
   constructor() {
-    // Initialiser tous les agents
+    // Initialiser tous les 11 agents (Coding 2.0)
     this.agents.set('project-manager', new ProjectManagerAgent());
     this.agents.set('database', new DatabaseAgent());
     this.agents.set('backend', new BackendAgent());
     this.agents.set('frontend', new FrontendAgent());
     this.agents.set('mobile', new MobileAgent());
     this.agents.set('game', new GameAgent());
+    this.agents.set('workflow', new WorkflowAgent()); // NOUVEAU: Workflows N8N/Make
     this.agents.set('seo', new SEOAgent());
     this.agents.set('security', new SecurityAgent());
     this.agents.set('testing', new TestingAgent());
@@ -118,6 +120,9 @@ export class AgentOrchestrator {
     if (config.type === 'game') {
       order.push('game');
     }
+
+    // Workflows d'automatisation (Coding 2.0)
+    order.push('workflow');
 
     // Optimisations
     order.push('seo');

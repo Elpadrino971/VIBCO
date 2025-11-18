@@ -9,11 +9,13 @@ export default function HomePage() {
       <section className="py-20 px-4 text-center bg-gradient-to-b from-primary/10 to-background">
         <div className="container mx-auto max-w-4xl">
           <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
-            VibeCoding Platform
+            CODING 2.0
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Créez des sites web, applications mobiles et jeux complets avec{' '}
-            <span className="font-bold text-primary">10 agents IA spécialisés</span>
+            Plateforme next-gen avec{' '}
+            <span className="font-bold text-primary">11 agents IA</span> +{' '}
+            <span className="font-bold text-purple-600">Builder de Workflows</span> +{' '}
+            <span className="font-bold text-green-600">Sécurité Enterprise</span>
           </p>
           <div className="flex gap-4 justify-center">
             <Link href="/create">
@@ -21,8 +23,13 @@ export default function HomePage() {
                 🚀 Créer un projet
               </Button>
             </Link>
-            <Link href="/about">
+            <Link href="/workflow-builder">
               <Button size="lg" variant="outline" className="text-lg px-8">
+                🔄 Workflow Builder
+              </Button>
+            </Link>
+            <Link href="/about">
+              <Button size="lg" variant="ghost" className="text-lg px-8">
                 En savoir plus
               </Button>
             </Link>
@@ -33,9 +40,15 @@ export default function HomePage() {
       {/* Features Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl font-bold text-center mb-12">
-            10 Agents IA Spécialisés
+          <h2 className="text-4xl font-bold text-center mb-4">
+            11 Agents IA Spécialisés
           </h2>
+          <p className="text-center text-muted-foreground mb-12 text-lg">
+            <span className="bg-gradient-to-r from-primary to-purple-600 text-transparent bg-clip-text font-bold">
+              NOUVEAU 2.0
+            </span>{' '}
+            - Agent Workflow pour automatisations N8N/Make
+          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -70,14 +83,15 @@ export default function HomePage() {
                 desc: 'Jeux Unity / Phaser / Three.js',
               },
               {
+                icon: '🔄',
+                name: 'Workflow',
+                desc: '🆕 Workflows N8N/Make automatiques',
+                badge: 'NEW',
+              },
+              {
                 icon: '🔍',
                 name: 'SEO',
                 desc: 'Optimisation référencement',
-              },
-              {
-                icon: '🧪',
-                name: 'Testing',
-                desc: 'Tests automatisés avec screenshots',
               },
               {
                 icon: '🔒',
@@ -85,16 +99,26 @@ export default function HomePage() {
                 desc: 'Audit de sécurité complet',
               },
               {
+                icon: '🧪',
+                name: 'Testing',
+                desc: 'Tests automatisés avec screenshots',
+              },
+              {
                 icon: '🚀',
                 name: 'DevOps',
                 desc: 'Déploiement et CI/CD',
               },
             ].map((agent) => (
-              <Card key={agent.name}>
+              <Card key={agent.name} className={agent.badge ? 'border-2 border-primary' : ''}>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <span className="text-3xl">{agent.icon}</span>
                     <span>{agent.name}</span>
+                    {agent.badge && (
+                      <span className="text-xs bg-primary text-white px-2 py-1 rounded">
+                        {agent.badge}
+                      </span>
+                    )}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>

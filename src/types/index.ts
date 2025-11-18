@@ -36,6 +36,7 @@ export type AgentType =
   | 'database'
   | 'mobile'
   | 'game'
+  | 'workflow'
   | 'seo'
   | 'testing'
   | 'security'
